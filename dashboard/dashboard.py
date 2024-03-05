@@ -6,7 +6,7 @@ import streamlit as st
 import seaborn as sns
 
 #membaca file csv data yang sudah bersih
-gabungan_data = pd.read_csv("D:/kuliah/SMT 6/Machine Learning/submission/dashboard/all_data.csv")
+gabungan_data = pd.read_csv("all_data.csv")
 print(gabungan_data)
 gabungan_data.head()
 
