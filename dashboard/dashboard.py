@@ -24,7 +24,7 @@ data2 = data2012.groupby(by = 'season_x').agg({
 })
 
 #menambahkan gambar sebagai header
-st.image("header.jpeg", width=700)
+st.image("dashboard/header.jpeg", width=700)
 
 #membuat judul
 st.header("Bike-Sharing Rental :bike:")
